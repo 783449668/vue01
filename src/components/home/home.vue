@@ -1,5 +1,6 @@
 <template>
 	<div id="tmpl">
+		
 		 <!-- 轮播图组件 -->
         	<mt-swipe :auto="4000">
  			    <mt-swipe-item><img src="../../../statics/imgs/cbd.jpg"></mt-swipe-item>
@@ -17,9 +18,9 @@
                         </router-link>
                     </li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-                        <router-link to="/photo/photolist">
+                        <router-link to="/mission/mission">
 		                    <span class="mui-icon mui-icon-email"></span>
-		                    <div class="mui-media-body">图片分享</div>
+		                    <div class="mui-media-body">任务大厅</div>
                         </router-link>
                     </li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
@@ -70,6 +71,7 @@
 </script>
 
 <style scoped>
+	
 	.mint-swipe{
         height: 300px;
     }

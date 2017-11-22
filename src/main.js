@@ -35,7 +35,7 @@ import register from './components/account/register.vue';
 import home from './components/home/home.vue';
 import car from './components/shopcar/car.vue';
 import news from './components/news/newslist.vue';
-import photo from './components/photo/photolist.vue';
+import mission from './components/mission/mission.vue';
 import set from './components/set/set.vue';
 // 4.0 引入vue-resource， 并绑定， 就会自动在Vue实例上注册一个$http对象
 import VueResource from 'vue-resource';
@@ -51,7 +51,7 @@ var router1 = new vueRouter({
 		//{path:'/home',component:home},   //首页
 		{path:'/shopcar',component:car},   
 		{path:'/news/newslist',component:news},
-		{path:'/photo/photolist',component:photo},
+		{path:'/mission/mission',component:mission},
 		{path:'/login',component:login},
 		{path:'/loginphone',component:loginphone},
 		{path:'/register',component:register},

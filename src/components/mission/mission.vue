@@ -1,6 +1,6 @@
 <template>
 	<div id="tmpl">
-	图片
+	任务大厅
 	</div>
 </template>
 
